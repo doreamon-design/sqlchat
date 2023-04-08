@@ -1,5 +1,6 @@
 import { createParser, ParsedEvent, ReconnectInterval } from "eventsource-parser";
 import { NextRequest } from "next/server";
+import { fetch } from '@znode/fetch';
 import { openAIApiEndpoint, openAIApiKey } from "@/utils";
 
 export const config = {
