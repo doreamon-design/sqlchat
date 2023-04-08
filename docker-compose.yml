@@ -1,0 +1,15 @@
+services:
+  app:
+    # build: .
+    image: whatwewant/sqlchat:v1-0
+    platform: linux/amd64
+    ports:
+      - 8080:8080
+    command: sleep infinity
+    environment:
+      PORT: 8080
+      OPENAI_API_KEY: $OPENAI_API_KEY
+      # HTTPS_PROXY: http://127.0.0.1:17890
+    volumes:
+      - ./package.json:/app/package.json
+      - ./pnpm-lock.yaml:/app/pnpm-lock.yaml

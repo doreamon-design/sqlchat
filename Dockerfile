@@ -32,6 +32,6 @@ COPY . .
 
 COPY --from=builder /build/.next /app/.next
 
-EXPOSE 8080
+ENV PORT=8080
 
 CMD pnpm start

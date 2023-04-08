@@ -13,6 +13,9 @@ dependencies:
   '@mui/styled-engine-sc':
     specifier: ^5.11.11
     version: 5.11.11(styled-components@5.3.9)
+  '@nem035/gpt-3-encoder':
+    specifier: ^1.1.7
+    version: 1.1.7
   '@radix-ui/react-select':
     specifier: ^1.2.1
     version: 1.2.1(@types/react@18.0.28)(react-dom@18.2.0)(react@18.2.0)
@@ -93,9 +96,6 @@ dependencies:
     version: 4.3.6(react@18.2.0)
 
 devDependencies:
-  '@nem035/gpt-3-encoder':
-    specifier: ^1.1.7
-    version: 1.1.7
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.2.7)
@@ -665,7 +665,7 @@ packages:
 
   /@nem035/gpt-3-encoder@1.1.7:
     resolution: {integrity: sha512-dtOenP4ZAmsKXkobTDUCcbkQvPJbuJ6Kp/LHqWDYLK//XNgGs3Re8ymcQzyVhtph8JckdI3K8FR5Q+6mX7HnpQ==}
-    dev: true
+    dev: false
 
   /@next/env@13.2.4:
     resolution: {integrity: sha512-+Mq3TtpkeeKFZanPturjcXt+KHfKYnLlX6jMLyCrmpq6OOs4i1GqBOAauSkii9QeKCMTYzGppar21JU57b/GEA==}
