@@ -23,8 +23,8 @@ dependencies:
     specifier: ^0.1.11
     version: 0.1.11(react@18.2.0)
   '@znode/fetch':
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.1.1
+    version: 1.1.1
   axios:
     specifier: ^1.3.4
     version: 1.3.4
@@ -1409,8 +1409,8 @@ packages:
     resolution: {integrity: sha512-N8tkAACJx2ww8vFMneJmaAgmjAG1tnVBZJRLRcx061tmsLRZHSEZSLuGWnwPtunsSLvSqXQ2wfp7Mgqg1I+2dQ==}
     dev: false
 
-  /@znode/fetch@1.1.0:
-    resolution: {integrity: sha512-ZMIZPC41237KXkTcXeLybgXDWSdYC3DemOWCq0gtyHMnsiCssaCa2M+eJIX8ielS5RxmaXDQi+WnTGMm8g+UmQ==}
+  /@znode/fetch@1.1.1:
+    resolution: {integrity: sha512-ZaT+4VChZUFJ95Ayo6EYP1syEEQDba8wygiP3rqFGsomBcaPE4x1ZmgjvdjvJD/WswbHwwKz5NoRjUD6Sp+EGw==}
     dependencies:
       node-fetch: 2.6.9
       proxy-agent: 5.0.0

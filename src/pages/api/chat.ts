@@ -1,6 +1,6 @@
 import { createParser, ParsedEvent, ReconnectInterval } from "eventsource-parser";
 import { NextRequest } from "next/server";
-import { fetch } from '@znode/fetch';
+import { fetch as zfetch } from '@znode/fetch';
 import { openAIApiEndpoint, openAIApiKey } from "@/utils";
 
 export const config = {
@@ -16,7 +16,7 @@ const handler = async (req: NextRequest) => {
   const openAIApiConfig = reqBody.openAIApiConfig;
   const apiKey = openAIApiConfig?.key || openAIApiKey;
   const apiEndpoint = getApiEndpoint(openAIApiConfig?.endpoint || openAIApiEndpoint);
-  const res = await fetch(apiEndpoint, {
+  const res = await zfetch(apiEndpoint, {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
