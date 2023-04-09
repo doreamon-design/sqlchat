@@ -64,7 +64,11 @@ const handler = async (req: NextRequest) => {
       }
     },
   });
-  return new Response(stream);
+  return new Response(stream, {
+    headers: {
+      "Content-Type": "application/octet-stream",
+    },
+  });
 };
 
 export default handler;
