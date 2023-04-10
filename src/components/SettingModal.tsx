@@ -23,7 +23,7 @@ const SettingModal = (props: Props) => {
         </button>
         <div className="w-full flex flex-col justify-start items-start space-y-3 pt-4">
           <div className="w-full flex flex-row justify-start items-start flex-wrap">
-            <a
+            {/* <a
               href="https://discord.gg/6R3qb32h"
               className="w-auto px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium flex flex-row justify-center items-center mr-2 mb-2 hover:underline hover:shadow"
               target="_blank"
@@ -31,7 +31,7 @@ const SettingModal = (props: Props) => {
               <Icon.BsDiscord className="w-4 h-auto mr-1" />
               {t("social.join-discord-channel")}
             </a>
-            <WeChatQRCodeView />
+            <WeChatQRCodeView /> */}
           </div>
 
           <h3 className="pl-4 text-sm text-gray-500">{t("setting.basic.self")}</h3>

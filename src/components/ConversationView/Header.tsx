@@ -32,17 +32,17 @@ const Header = (props: Props) => {
           <Icon.IoIosMenu className="text-gray-600 w-full h-auto" />
         </button>
         <span className="w-auto text-left block lg:hidden">{title}</span>
-        <GitHubStarBadge className="hidden lg:flex ml-2" />
+        {/* <GitHubStarBadge className="hidden lg:flex ml-2" /> */}
       </div>
       <span className="w-auto text-center h-8 p-1 hidden lg:block">{title}</span>
       <div className="mr-2 sm:mr-3 relative flex flex-row justify-end items-center">
-        <a
+        {/* <a
           href="https://www.bytebase.com?source=sqlchat"
           className="flex flex-row justify-center items-center h-10 px-3 py-1 rounded-md whitespace-nowrap hover:bg-gray-100"
           target="_blank"
         >
           <img className="h-5 sm:h-6 w-auto" src="/craft-by-bytebase.webp" alt="" />
-        </a>
+        </a> */}
       </div>
     </div>
   );
